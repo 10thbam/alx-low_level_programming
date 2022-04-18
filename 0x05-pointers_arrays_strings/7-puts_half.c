@@ -24,6 +24,6 @@ for (i = last; str[i]; i++)
 _putchar (str[i]);
 }
 
-_pputchar ('\n');
+_putchar ('\n');
 
 }
