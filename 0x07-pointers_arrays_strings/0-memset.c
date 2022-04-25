@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*_memset - fills memory
-*@s: pointer block of memory
-*@b: valur to set
+*_memset - fills memory with a constant byte
+*@s: pointer block of memory to fill
+*@b: value to set
 *@n: bytes of memory
 *Return: dest
 */
@@ -15,7 +15,7 @@ unsigned int i;
 /*Declaring for*/
 for (i = 0; i < n; i++)
 {
-*(s + i) = b; /*add 1 positon*/
+*(s + i) = b; /*add 1 positon s*/
 
 } /*End for*/
 
