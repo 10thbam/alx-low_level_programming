@@ -24,7 +24,7 @@ while (str2[j] != '\0') /*Declaring WHILE *accept*/
 {
 if (str2[j] == str1[i]) /*Evaluate condition*/
 {
-count ++; /*count number*/
+count++; /*count number*/
 break;
 }
 
